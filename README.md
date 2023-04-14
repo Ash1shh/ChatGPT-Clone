@@ -229,9 +229,11 @@ Clone the project
 ```
 
 Change Directory
+
 ```bash
   cd ChatGPT-Clone
 ```
+
 Install dependencies
 
 ```bash
@@ -282,10 +284,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Your Name - [@twitter pluto0p](https://twitter.com/pluto0p) - Ashishchandra8328@gmail.com
 
-Project Link: [https://github.com/Ash1shh/ChatGPT-Clone.git](https://github.com/Ash1shh/ChatGPT-Clone.git)
-
 <hr />
-
 <br />
 
 <div align="center">If you find what you see appealing, please feel free to give this repository a ⭐ star.😉 <br/>
