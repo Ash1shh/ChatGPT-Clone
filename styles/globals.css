@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .infotext {
+        @apply p-4 rounded-lg max-w-[275px] bg-[#3E3F4B]
+    }
+    .chatrow {
+        @apply rounded-lg px-4 py-3 text-sm flex items-center justify-center space-x-2 hover:bg-[#2a2b32] cursor-pointer text-gray-300 transition-all duration-200 ease-out
+    }
+    .in {
+        @apply hover:bg-[#202123]
+    } 
+}
