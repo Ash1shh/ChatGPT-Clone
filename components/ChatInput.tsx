@@ -64,8 +64,8 @@ function ChatInput({ chatId }: Props) {
     }
 
     return (
-        <div className='flex flex-col'>
-            <div className='bg-[#41414F] text-gray-400 rounded-lg text-sm lg:mx-[446px] mt-16 mb-3'>
+        <div className='flex flex-col p-4 md:p-0'>
+            <div className='bg-[#41414F] text-gray-400 rounded-lg text-sm lg:mx-[446px] mt-10 mb-3'>
                 <form onSubmit={sendMessage} className="p-3 space-x-5 flex">
                     <input type="text"
                         className="bg-transparent focus:outline-none flex-1 disabled:cursor-not-allowed disabled:text-gray-300"
@@ -80,11 +80,6 @@ function ChatInput({ chatId }: Props) {
                         <PaperAirplaneIcon className="h-4 w-4 -rotate-45" />
                     </button>
                 </form>
-
-                <div className="md:hidden">
-                    {/*ModelSelection*/}
-                    <ModelSelection />
-                </div>
             </div>
             <h1 className='w-full text-center text-xs mb-5 text-[#7F8186] font-semibold'>Ithalli Apr 1 Version. Free Research Preview. Ithalli may produce inaccurate information about people, places, or facts.</h1>
         </div>

@@ -23,7 +23,7 @@ function Chat({ chatId }: Props) {
   ))
 
   return (
-    <ScrollToBottom className="flex-1 overflow-y-auto overflow-x-hidden">
+    <ScrollToBottom className="flex-1 overflow-y-auto overflow-x-hidden scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#444654]/80 hover:scrollbar-thumb-[#ACACBE]">
       {messages?.empty && (
         <>
           <p className="mt-10 text-center text-white">

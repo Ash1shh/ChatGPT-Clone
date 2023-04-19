@@ -24,7 +24,7 @@ export default async function RootLayout({
 
             <div className='flex'>
               {/* sidebar */}
-              <div className='bg-[#202022] max-w-xs h-screen overflow-y-auto md:min-w-[20rem] hidden md:block'>
+              <div className='bg-[#202022] max-w-xs h-screen overflow-y-auto md:min-w-[20rem] hidden md:block scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#444654]/80 hover:scrollbar-thumb-[#ACACBE]'>
 
                 <SideBar />
               </div>
